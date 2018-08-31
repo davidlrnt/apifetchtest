@@ -1,0 +1,41 @@
+* {
+	color: #0A0F16;
+	font-size: 16px;
+	font-family: Verdana;
+}
+
+body {
+	padding: 15px;
+}
+
+#url {
+	background-color: #2B2B2B;
+	color: #D42624;
+	padding: 10px;
+	height: 50px;
+	flex-grow: 1;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+#request {
+	background-color: #28A427;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+#response-wrap {
+	background-color: #EDECF4;
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding: 20px;
+	overflow: scroll
+}
+
+.flex {
+	display: flex
+}
+
+.m-s {
+	margin: 20px 0px;
+}
